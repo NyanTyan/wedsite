@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1, h2{cursor: default; color: #000;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 27px;
+	font-weight: 900;
+	margin: 30px 0px 0px 160px;
+}
+.text {
+	color: #333333;
+	line-height: 25px;
+}
+.bold {
+	color: #333333;
+	font-weight: 700;
+}
+.red {
+	color: #ff0000;
+}
+p{
+	transition: 0.3s;
+}
+.important{
+	transition: 0,3s;
+	max-width: 1500px;
+	margin-left: 200px;
+}
+.important:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	font-size: 22px;
+}
+.header{
+	justify-content: space-between;
+	display: flex;
+    min-height: 40px;
+	background-color: #227aff;
+}
+.header-Caption{
+    color: #ffffff;
+	font-size: 33px;
+    padding: 0px 0px 0px 50px;
+	font-family: 'Dancing Script', cursive;
+	transition-duration: 1s;
+}
+.header-Caption:hover{
+	font-size: 36px;
+}
+.header-Caption:active{
+	color: #7a7a7a;
+}
+.navbar{
+	display: flex;
+
+}
+.navbar a{
+	color: white;
+	font-size: 16px;
+	display: flex;
+	padding: 10px;
+	transition: 1ms;
+}
+.navbar a:active{
+	color: #227aff;
+}
+.navbar li{
+	transition: 0.2s;
+}
+.navbar li:active{
+	background-color: #ffffff;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+section{
+	margin-bottom: 30px;
+}
+section h1{
+	font-size: 36px;
+	font-weight: 900;
+	margin: 10px 0px 0px 80px;
+}
+.section-flex{
+	display: flex;
+	margin-top: 30px;
+}
+.yooo{
+	max-width: 450px;
+	max-height: 550px;
+	margin: 0px 0px 0px 250px;
+	transition: 1s;
+}
+.number-system{
+	font-size: 24px;
+	font-weight: 900;
+}
+.flex-table{
+	display: flex;
+	width: 1700px;
+}
+.flex-table img{
+	height: 300px;
+}
+section p{
+	max-width: 900px;
+	font-size: 20px;
+	margin: 10px 0px 0px 160px ;
+}
+.boldtext{
+	font-weight: 900;
+}
+.underlined{
+	text-decoration: underline;
+}
+.section-text1{
+	margin: 0px 0px 20px 200px;
+	max-width: 676px;
+}
+.section-text3{
+	margin: 0px 0px 50px 200px;
+	max-width: 1500px;
+}
+.section-text2{
+	margin-left: 200px;
+	max-width: 1500px;
+}
+.section-text4{
+	margin: 35px 0px 0px 200px;
+	max-width: 1500px;
+}
+.numbers{
+	max-width: 486px;
+	max-height: 300px;
+	margin-left: 255px;
+	margin-top: 10px;
+}
+section h2{
+	margin-top: 30px;
+}
+.example{
+	max-width: 500px;
+	margin: 0px 0px 0px 100px;
+}
+
+.sign{
+	width: 600px;
+	margin: 20px 0px 20px 220px;
+}
+
+footer{
+	padding: 10px;
+	background-color: #227aff;
+	min-height: 130px;
+}
+footer img{
+	position: relative;
+	bottom: 10px;
+	height: 50px;
+	width: 50px;
+}
